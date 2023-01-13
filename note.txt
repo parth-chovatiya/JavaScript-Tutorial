@@ -1,0 +1,11 @@
+Symbol
+function
+
+difference b/w for/in & for/of loop
+
+Object instanceof Function//true
+Object instanceof Object//true
+Function instanceof Object//true
+Function instanceof Function//true
+
+callback hell
