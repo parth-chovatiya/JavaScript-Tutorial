@@ -105,7 +105,7 @@ const myPromise_all = Promise.all([
   }),
 ]);
 
-myPromise_all
+myPromise_all 
   // in the data, array will be received
   .then((data) => {
     console.log(data);
@@ -175,8 +175,8 @@ myPromise_race
 const myPromise_any = Promise.any([
   new Promise((resolve, reject) =>
     setTimeout(() => {
-      resolve(2);
-    }, 2000)
+      resolve(8);
+    }, 8000)
   ),
   new Promise((resolve, reject) =>
     setTimeout(() => {
